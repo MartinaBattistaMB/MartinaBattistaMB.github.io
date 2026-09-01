@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Request a Quote</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<head>
+<body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+		<a href="quote.html">Get a Quote</a>
+	</nav>
+	<h1>Request a Quote</h1>
+  <p>Fill in the details below and I'll get back to you with a quote as soon as possible.</p>
+
+  <form action="https://formsubmit.co/martinabattistamb@gmail.com" method="POST" enctype="multipart/form-data" class="quote-form">
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="contact">Email or Phone</label>
+    <input type="text" id="contact" name="Contact Details" required>
+
+    <label for="direction">Language Direction</label>
+    <input type="text" id="direction" name="Language Direction" placeholder="e.g. Italian to English" required>
+
+    <label for="doctype">Type of Document</label>
+    <input type="text" id="doctype" name="Document Type" placeholder="e.g. Birth certificate, contract, subtitles" required>
+
+    <label for="notes">Additional Notes</label>
+	<textarea id="notes" name="Additional Notes" rows="5"></textarea>
+
+    <label for="files">Upload Source Document(s)</label>
+    <input type="file" id="files" name="attachment" multiple>
+
+    <input type="hidden" name="_subject" value="New Quote Request">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="_next" value="https://annatupputi03-bot.github.io/Martina-s-website/thank-you.html">
+
+    <button type="submit">Send Request</button>
+  </form>
+
+  <footer>
+    <p>martinabattistamb@gmail.com</p>
+  </footer>
+</body>
+</html>

@@ -1,18 +1,40 @@
 
 body {
-  font-family: sans-serif;
+  font-family: Garamond, 'Apple Garamond', 'EB Garamond', sans serif;
   max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #eaf4fb;
+}
+
+html {
+	background-color: #f4f4f4;
 }
 
 h1 {
-  color: #2563eb;
+  color: #1e3a8a;
+}
+p {
+	font-size: 1.15rem;
+	line-height: 1.6;
 }
 nav {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  border: 2px solid #1e3a8a;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  width: fit-content;
+  margin: 0 auto 2rem;
+}
+
+nav a {
+	color: #1e3a8a;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 0.05em;
 }
 .header-row {
   display: flex;
@@ -21,8 +43,55 @@ nav {
 }
 
 .profile-pic {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
   object-fit: cover;
+  object-position: top;
+  border: 3px solid #1e3a8a;
+}
+
+footer {
+	margin-top: 3rem;
+	padding-top: 1.5rem;
+	border-top: 2px solid #1e3a8a;
+	text-align: center;
+	font-size: 0.95rem;
+	color: #1e3a8a;
+}
+.quote-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+}
+
+.quote-form label {
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-top: 0.8rem;
+}
+
+.quote-form input[type="text"],
+.quote-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #1e3a8a;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.quote-form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.quote-form button:hover {
+  background-color: #1d4ed8;
 }
