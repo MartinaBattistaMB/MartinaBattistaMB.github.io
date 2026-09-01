@@ -13,6 +13,7 @@ html {
 
 h1 {
   color: #1e3a8a;
+  justify-content: center;
 }
 p {
 	font-size: 1.15rem;
