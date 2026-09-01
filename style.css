@@ -100,3 +100,31 @@ footer {
 .quote-form button:hover {
   background-color: #1d4ed8;
 }
+.cta-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.cta-button:hover {
+  background-color: #1d4ed8;
+}
+.linkedin-link {
+  color: #1e3a8a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+}
