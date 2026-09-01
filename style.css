@@ -128,3 +128,17 @@ footer {
 .linkedin-link:hover {
   text-decoration: underline;
 }
+.back-button {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-size: 1.05rem;
+}
+
+.back-button:hover {
+  background-color: #1d4ed8;
+}
